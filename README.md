@@ -1,6 +1,6 @@
 **Sistema de Gestao de Lojas**
 
-Sobre o Projeto
+Sobre o Projeto:
 O **sistema de gestao de lojas** e um projeto desenvolvido em Python 
 com o objetivo de controlar produtos, stock e endaas em uma loja.
 O sistema permite organizar as informacoes dos produtos e realizar 
@@ -29,17 +29,17 @@ O sistema permite realizar operacoes como:
 - Calcular o valor das vendas
 - Consultar estatisticas da loja
 - Identificar produtos disponiveis
-- Identficar produtos com pouco stock
+- Identficar produtos com pouco stock.
 
 **Tecnologias utilizadas**
 Este projeto foi desenvolvido utilizando:
 - Python
 - Estruturas de dados(listas e dicionarios)
-- Programacao estruturada
+- Programacao estruturada.
 
 **Estrutura dos dados**
 Os produtos sao armazenados utilizando uma estrutura 
-semelhante a esta
+semelhante a esta.
 
 Python
 {
