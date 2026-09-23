@@ -83,13 +83,13 @@ def adicionar_produto():
     }
     produtos.append(novo_produto)
     salvar_produtos()
-    print('Produto cadastrado com sucesso!')
+    print('Produto cadastrado com sucesso.')
     print('-='*30)
 
 
 def listar_produtos():
     if len(produtos) == 0:
-        print('A lista esta vazia!')
+        print('A lista esta vazia.')
         return
 
     print('==== Lista de produtos ====')
@@ -114,14 +114,14 @@ def pesquisar_produto(nome):
             print('-='*30)
             return
     else:
-        print('O produto pesquisado nao foi encontrado!')
+        print('O produto pesquisado nao foi encontrado.')
         return
 
 def alterar_preco(nome, novo_preco):
     for produto in produtos:
         if produto['nome'] == nome:
             produto['preco'] = novo_preco
-            print('Um novo preco foi atribuido ao produto!')
+            print('Um novo preco foi atribuido ao produto.')
             print('-=' * 30)
             return
 
@@ -129,7 +129,7 @@ def alterar_quantidade(nome, nova_quantidade):
     for produto in produtos:
         if produto['nome'] == nome:
             produto['quantidade'] = nova_quantidade
-            print('Um nova quantidade foi atribuido ao produto! ')
+            print('Um nova quantidade foi atribuido ao produto.')
             print('-=' * 30)
             return
 
@@ -137,7 +137,7 @@ def excluir_produto(nome):
     for produto in produtos:
         if produto['nome'] == nome:
             produtos.remove(produto)
-            print('Produto excluido com sucesso!')
+            print('Produto excluido com sucesso.')
             print('-='*30)
             return
     else:
@@ -165,7 +165,7 @@ def realizar_venda():
             }
             vendas.append(nova_venda)
             salvar_venda()
-            print('Venda realizada com sucesso!')
+            print('Venda realizada com sucesso.')
             print(f'Valor total: {valor_total}')
             return
 
