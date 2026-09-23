@@ -13,7 +13,7 @@ def login():
         senha = input('Senha do usuario: ')
 
         if usuario == usuario_correto and senha == senha_correta:
-            print('Login realizado com sucesso!')
+            print('Login realizado com sucesso.')
             return True
         else:
             tentativas += 1
@@ -22,7 +22,7 @@ def login():
             if tentativas < 3:
                 print(f'Tentativas restantes: {3 - tentativas}')
 
-    print('Numero maximo de tentaivas atingido!')
+    print('Numero maximo de tentaivas atingido.')
     print('Acesso negado!')
     return False
 
