@@ -47,4 +47,4 @@ Python
     "preco": 0,
     "quantidade": 0,
     "disponivel": True
-}
+}.
